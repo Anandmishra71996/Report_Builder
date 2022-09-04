@@ -1,0 +1,33 @@
+{
+  "name": "data_management",
+  "version": "1.0.0",
+  "description": "to create report from a template",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anandmishra71996/Report_Builder.git"
+  },
+  "keywords": [
+    "report",
+    "builder"
+  ],
+  "author": "Anand Mishra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anandmishra71996/Report_Builder/issues"
+  },
+  "homepage": "https://github.com/Anandmishra71996/Report_Builder#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongodb": "^4.9.1",
+    "mongoose": "^6.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
